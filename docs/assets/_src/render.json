@@ -1,0 +1,68 @@
+{
+  "outDir": "..",
+  "brand": {
+    "name": "Visit Egypt",
+    "tagline": "A bilingual tourism guide for Egypt: places, events, culture, transport, maps and chat.",
+    "accent": "#1976D2",
+    "accent2": "#F59E0B",
+    "logo": "logo.png",
+    "dark": true
+  },
+  "images": [
+    {
+      "type": "banner",
+      "file": "banner.png",
+      "kicker": "Flutter · Firebase · Graduation project 2022",
+      "subtitle": "Cities, places, events, culture, transport and emergency numbers in one Arabic / English app.",
+      "screens": ["screens/11.jpg", "screens/01.jpg", "screens/06.jpg"],
+      "device": "card",
+      "chips": ["Flutter", "Bloc / Cubit", "Firebase", "Google Maps", "AR + EN"]
+    },
+    {
+      "type": "gallery",
+      "file": "screens-explore.png",
+      "title": "Explore cities, places, events and culture",
+      "screens": ["screens/12.jpg", "screens/06.jpg", "screens/10.jpg", "screens/11.jpg", "screens/09.jpg"],
+      "device": "card",
+      "cardRatio": 2.17,
+      "cols": 5
+    },
+    {
+      "type": "gallery",
+      "file": "screens-tools.png",
+      "title": "Travel tools for every tourist",
+      "screens": ["screens/02.jpg", "screens/03.jpg", "screens/04.jpg", "screens/05.jpg", "screens/17.jpg"],
+      "device": "card",
+      "cardRatio": 2.17,
+      "cols": 5
+    },
+    {
+      "type": "feature",
+      "file": "feature-maps.png",
+      "kicker": "Signature feature",
+      "title": "Find any place, then get there",
+      "points": [
+        "Google Places text search and autocomplete for any place in Egypt",
+        "Category shortcuts: cafe, mosque, bank, pharmacy, police, restaurant...",
+        "Route drawn on the map with the Directions API and polylines",
+        "Transport companies with reviews to plan the trip between cities"
+      ],
+      "screens": ["screens/15.jpg", "screens/16.jpg"],
+      "devices": ["card", "card"]
+    },
+    {
+      "type": "feature",
+      "file": "feature-settings.png",
+      "kicker": "Built for tourists",
+      "title": "Arabic or English, light or dark",
+      "points": [
+        "Every screen translated with GetX translations (AR / EN)",
+        "Dark mode, push notifications toggle, profile settings",
+        "Favourites saved offline with Hive",
+        "Weather, currency converter and QR reader built in"
+      ],
+      "screens": ["screens/13.jpg", "screens/08.jpg"],
+      "devices": ["card", "card"]
+    }
+  ]
+}

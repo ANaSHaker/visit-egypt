@@ -1,0 +1,6 @@
+{
+  "name": "visit-egypt",
+  "description": "Visit Egypt: a bilingual Arabic/English tourism app built with Flutter, Bloc/Cubit, Firebase and Google Maps. Places by city, events, culture, transport reviews, directions, weather, currency, QR and chat. 2022 team graduation project. Your guide to Egypt in one app",
+  "topics": ["flutter", "dart", "bloc", "firebase", "google-maps", "tourism", "egypt", "bilingual", "hive", "graduation-project"],
+  "homepage": null
+}
